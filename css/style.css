@@ -1,0 +1,90 @@
+/*#2691A5 sky
+#F08700 tang
+#F49F0A orange
+#EFCA08 yellow
+#BBDEF0 aqua*/
+
+@import url('../css/fonts.css');
+
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    /*THEME COLORS*/
+    --text-sky:#2691A5;
+    --text-tang:#F08700;
+    --text-aqua:#BBDEF0;
+    --yellow:#EFCA08;
+    --orange:#F49F0A;
+
+    /*GRADIENT COLOR*/
+    --sun: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+    /*FONT FAMILY*/
+    --Qsand:'Qsand',cursive;
+    --Pacifico:'Pacifico',cursive;
+    --Righte:'Righte',cursive;
+    --Signika:'Signika',cursive;
+}
+
+/*GLOBAL CLASSES*/
+a{
+    text-decoration: none;
+    color: #2691A5;
+}
+ul{
+    list-style-type: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*GLOBAL CLASSES*/
+
+/*NAVBAR*/
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+.nav .nav-menu{
+    justify-content: space-between;
+}
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Signika);
+}
+.nav .nav-items .nav-link:hover{
+    background-color: var(--yellow);
+}
+.nav .nav-items .nav-link:hover a{
+    color: white;
+}
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Pacifico);
+}
+.nav .social{
+    padding: 1.6rem 0;
+}
+.nav .social i{
+    padding: 0 .2rem;
+}
+.nav .social i:hover{
+    color: var(--text-aqua);
+}
+/*NAVBAR*/

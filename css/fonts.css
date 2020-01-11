@@ -1,0 +1,20 @@
+/*font-family: Qsand*/
+@font-face{
+    font-family: Qsand;
+    src: url('../fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+/*font-family: Pacifico*/
+@font-face{
+    font-family: Pacifico;
+    src: url('../fonts/Pacifico/Pacifico-Regular.ttf');
+}
+/*font-family: Righte*/
+@font-face{
+    font-family: Righte;
+    src: url('../fonts/Righteous/Righteous-Regular.ttf');
+}
+/*font-family: Signika*/
+@font-face{
+    font-family: Signika;
+    src: url('../fonts/Signika/Signika-Regular.ttf');
+}
